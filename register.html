@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าลงทะเบียน</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #ffffff;
+            background-color: #ffaa2bd9;
+            margin: 0;
+        }
+        .register-container {
+            background-color: #292929;
+            padding: 50px;
+            border-radius: 16px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .register-container img {
+            width: 80px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .register-container h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .register-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .register-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #2c7be2;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .register-container button:hover {
+            background-color: #45a049;
+        }
+        .login-link {
+            margin-top: 15px;
+            font-size: 14px;
+            text-align: center;
+        }
+        .login-link a {
+            color: #2c7be2;
+            text-decoration: none;
+        }
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="register-container">
+        <h2>ลงทะเบียน</h2>
+        <!-- โลโก้หรือรูป -->
+        <img src="d:\034พิชญา\bootstrap-5.3.3-examples\!งานกลุ่ม\inm\logo_rmutsb_transparent(1).gif" alt="โลโก้">
+
+        <!-- ฟอร์มสำหรับใส่ชื่อ -->
+        <input type="text" id="name" name="name" placeholder="ชื่อ" required>
+
+        <!-- ฟอร์มสำหรับใส่อีเมล -->
+        <input type="email" id="email" name="email" placeholder="อีเมล" required>
+
+        <!-- ฟอร์มสำหรับใส่รหัสผ่าน -->
+        <input type="password" id="password" name="password" placeholder="รหัสผ่าน" required>
+
+        <!-- ฟอร์มสำหรับยืนยันรหัสผ่าน -->
+        <input type="password" id="confirm-password" name="confirm-password" placeholder="ยืนยันรหัสผ่าน" required>
+
+        <!-- ปุ่มลงทะเบียน -->
+        <a href="file:///D:/034%E0%B8%9E%E0%B8%B4%E0%B8%8A%E0%B8%8D%E0%B8%B2/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94/Multimedia/login.html" class="btn-register">
+            <button type="button">ลงทะเบียน</button>
+          </a>
+
+        <!-- ลิงก์ไปหน้าล็อคอิน -->
+        <div class="login-link">
+            มีบัญชีอยู่แล้ว? <a href="file:///D:/034%E0%B8%9E%E0%B8%B4%E0%B8%8A%E0%B8%8D%E0%B8%B2/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94/Multimedia/login.html">ไปหน้าล็อคอิน</a>
+        </div>
+    </div>
+
+</body>
+</html>

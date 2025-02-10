@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อมูลผู้สมัคร</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffaa2bd9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background-color:  #292929;
+            padding: 20px;
+            border-radius: 10px;
+            width: 800px;
+            color: #fff;
+        }
+
+        .form-container h2 {
+            margin-bottom: 15px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: calc(100% - 20px);
+            padding: 8px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-group-half {
+            display: flex;
+            gap: 10px;
+        }
+
+        .form-group-half .form-group {
+            flex: 1;
+        }
+
+        .submit-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        .submit-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>ข้อมูลผู้สมัคร</h2>
+        <div class="form-group-half">
+            <div class="form-group">
+                <label for="firstName">ชื่อ</label>
+                <input type="text" id="firstName" name="firstName">
+            </div>
+            <div class="form-group">
+                <label for="lastName">นามสกุล</label>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="form-group-half">
+            <div class="form-group">
+                <label for="phone">เบอร์โทร</label>
+                <input type="text" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="birthdate">วันเกิด</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="education">สถานศึกษาเดิม</label>
+            <input type="text" id="education" name="education">
+        </div>
+        <div class="form-group">
+            <label for="level">ระดับการศึกษา</label>
+            <input type="text" id="level" name="level">
+        </div>
+        <h2>เลือกหลักสูตร</h2>
+        <div class="form-group-half">
+            <div class="form-group">
+                <label for="year">ปีการศึกษา</label>
+                <input type="text" id="year" name="year">
+            </div>
+            <div class="form-group">
+                <label for="center">ศูนย์</label>
+                <input type="text" id="center" name="center">
+            </div>
+        </div>
+        <div class="form-group-half">
+            <div class="form-group">
+                <label for="faculty">คณะ</label>
+                <input type="text" id="faculty" name="faculty">
+            </div>
+            <div class="form-group">
+                <label for="major">สาขา</label>
+                <input type="text" id="major" name="major">
+            </div>
+        </div>
+        <a href="file:///D:/034%E0%B8%9E%E0%B8%B4%E0%B8%8A%E0%B8%8D%E0%B8%B2/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94/Multimedia/complete.html">
+           
+        <button class="submit-button">บันทึกข้อมูล</button>
+    </div>
+</body>
+</html>

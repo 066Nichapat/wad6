@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หลักสูตร</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:  #ffaa2bd9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .header {
+            margin: 20px 0;
+            font-size: 36px;
+            color: white;
+        }
+
+        .courses {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .course-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+            overflow: hidden;
+        }
+
+        .course-card:hover {
+            transform: scale(1.05);
+        }
+
+        .course-card img {
+            width: 100%;
+            height: 150px; /* กำหนดความสูงของรูปภาพ */
+            object-fit: cover; /* ให้รูปภาพครอบคลุมพื้นที่โดยไม่บิดเบือน */
+            border-radius: 10px 10px 0 0;
+        }
+
+        .course-card .icon {
+            background-color: black;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px auto;
+        }
+
+        .course-card .icon img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .course-card p {
+            margin: 10px 0 0;
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">หลักสูตร</div>
+    <div class="courses">
+        <a href="file:///D:/034%E0%B8%9E%E0%B8%B4%E0%B8%8A%E0%B8%8D%E0%B8%B2/%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%84%E0%B9%89%E0%B8%94/Multimedia/Multi.html" class="course-card">
+            
+         
+            <p>สมัครเรียนระดับปริญญาตรี</p>
+        </a>
+        <a href="master.html" class="course-card">
+           
+           
+            <p>สมัครเรียนระดับปริญญาโท</p>
+        </a>
+        <a href="doctorate.html" class="course-card">
+           
+          
+            <p>สมัครเรียนระดับปริญญาเอก</p>
+        </a>
+    </div>
+</body>
+</html>
